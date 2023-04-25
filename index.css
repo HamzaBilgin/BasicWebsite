@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(251,248,204);
+    font-size: 25px;
+    color: rgb(3,4,94);
+}
+
+/* 
+body{
+    padding: 0px 20px;
+} */
+/*Navbar css*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.navbar .headerlink{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar ul{
+    margin-right: 50px;   
+}
+
+
+.navbar ul li{
+    display: inline;
+    padding: 10px;    
+}
+
+
+/*giriş css*/
+.giris{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 600px;
+}
+.column{
+    float: left;
+    
+}
+
+.column.left{
+    width: 50%;
+}
+
+.column.right{
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.giris .left {
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.giris .left .giris_h2 {
+    font-size: 50px;
+}
+.giris .left button {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 3px grey;
+    
+
+}
+
+
+.giris .right{
+    padding-right: 50px;
+    height: 100%;
+    position: relative;
+}
+.giris .right .right_img{
+    width: 70%;
+    height: 85%;
+    position: absolute;
+    left: 37%;
+    top: 42%;
+    transform: translate(-36%, -41%);
+}
+.giris .right .right_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 57% 43% 58% 42% / 55% 43% 57% 45% ;
+}
+
+.giris .right .right_cerceve{
+    background-color: unset;
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    left: 32%;
+    top: 48%;
+    border: 1px solid black;
+    border-radius: 57% 43% 58% 42% / 55% 43% 57% 45% ;
+    transform: translate(-36%, -41%);   
+}
+
+.giris .right .rigt_slash{
+    background-color: unset;
+    position: absolute;
+    font-size: 1.5625em;
+	font-weight: bolder;
+    left: 14%;
+    top: 73%;
+}
+
+.giris .right .right_arti1{
+    background-color: unset;
+    position: absolute;
+    font-size: 1.5625em;
+	font-weight: bolder;
+    left: 78%;
+    top: 1%;
+}
+.giris .right .right_arti2{
+    background-color: unset;
+    position: absolute;
+    font-size: 1.5625em;
+	font-weight: bolder;
+    left: 73%;
+    top: 4%;
+}
+.giris .right .right_arti3{
+    background-color: unset;
+    position: absolute;
+    font-size: 1.5625em;
+	font-weight: bolder;
+    left: 78%;
+    top: 7%;
+}
+
+/*about css*/
+
+.div_baslik{
+    margin-top: 200px;
+    margin-left: 50px;
+    clear: right;
+    
+}
+.about{
+    font-size: 100px;
+    color: rgb(215, 205, 66);
+}
+
+.div_about_past{
+    width: 75%;
+    float: right;
+}
+
+.div_about_past ol{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+
+.div_about_past ol li{
+    font-size: 1.75rem;
+}
+
+/* Work css */
+
+.div_baslik .work{
+    width:45%;
+    float: left;
+    margin: 20px;
+}
+
+.div_baslik::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/*Contact css*/
+
+
+.div_contact img{
+    float: left;
+}
+.contact_info{
+  padding-left: 350px;
+}
+
+.contact_info a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }
+
+  .contact_info a:hover{
+    color: red;
+    transform: scale(1.03);
+	transition: 0.5s;
+  }
+
+
+
