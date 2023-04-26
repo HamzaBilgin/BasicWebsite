@@ -3,6 +3,7 @@
     background-color: rgb(251,248,204);
     font-size: 25px;
     color: rgb(3,4,94);
+    scroll-behavior: smooth;
 }
 
 /* 
@@ -204,7 +205,7 @@ body{
 
   .contact_info a:hover{
     color: red;
-    transform: scale(1.03);
+    transform: translateX(10px);
 	transition: 0.5s;
   }
 
